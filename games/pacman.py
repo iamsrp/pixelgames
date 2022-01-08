@@ -141,7 +141,7 @@ class Pacman(Game):
         Set up the game state.
         """
         scr.nodelay(True)
-        scr.noecho()
+        curses.noecho()
 
         self._pygame = game
         self._scr    = scr
